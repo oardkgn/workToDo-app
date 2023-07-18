@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 import Layout from "./Layout";
 import Home from "./views/Home";
-
+import Dash from "./views/Dash";
 
 const router = createBrowserRouter([
   {
@@ -13,7 +13,10 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-
+      {
+        path: "dash",
+        element: <Dash />,
+      },
     ],
   },
 ]);
