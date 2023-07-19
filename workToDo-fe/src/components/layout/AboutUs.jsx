@@ -31,17 +31,19 @@ function AboutUs() {
           of your workload.
           <img className=" w-48 absolute -left-[160px] -top-5" src="/team.png" alt="" />
         </p>
-        <p className="w-[70%] text-center  bg-opacity-20 bg-lightBlue p-6 rounded-xl rounded-tr-sm self-end">
+        <p className="w-[70%] relative text-center  bg-opacity-20 bg-lightBlue p-6 rounded-xl rounded-tr-sm self-end">
           At <span>WorkToDo</span>, we believe that effective work
           organization is the key to unlocking your full potential. By
           harnessing the power of our platform, you can transform your chaos
           into order, unleash your productivity, and achieve success in your
           personal and professional endeavors.
+          <img className=" w-40 absolute -right-32 -top-9" src="/key.png" alt="" />
         </p>
-        <p className=" w-[70%] text-center  bg-opacity-20 bg-lightBlue p-6 rounded-xl rounded-tl-sm">
+        <p className=" relative w-[70%] text-center  bg-opacity-20 bg-lightBlue p-6 rounded-xl rounded-tl-sm">
           Join us today and experience the difference of a well-organized work
           life. Let us help you simplify your tasks, boost your efficiency, and
           pave the way for greater accomplishments.
+          <img className=" w-24 absolute -left-[110px] -top-5" src="/tick.png" alt="" />
         </p>
       </section>
     </>

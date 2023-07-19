@@ -10,7 +10,7 @@ function LogInForm() {
       <form className=" w-1/2 mx-auto pb-14 pt-20">
         <div className="mb-6">
           <label
-            for="email"
+            htmlFor="email"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
             Your email
@@ -25,7 +25,7 @@ function LogInForm() {
         </div>
         <div className="mb-6 relative">
           <label
-            for="password"
+            htmlFor="password"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
             Your password
@@ -59,7 +59,7 @@ function LogInForm() {
             />
           </div>
           <label
-            for="remember"
+            htmlFor="remember"
             className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
           >
             Remember me
